@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoe to use the slides in jQuery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./jquery-3.6.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".box").click(function(){
+                $(".text").slideUp();
+            });
+        });
+    </script>
+</head>
+<body>
+
+
+    <div class="box">The box</div>
+        <div class="text">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, eum? Quod saepe ad incidunt porro voluptatum, magnam repudiandae repellat! Eligendi quis praesentium atque nemo facilis vero ea nihil doloremque. Omnis, repellendus enim eius cumque dolore molestiae dolor eaque, veritatis mollitia totam assumenda, recusandae ratione. Aperiam quas in corrupti tempore blanditiis?</p>
+    </div>
+    
+</body>
+</html>

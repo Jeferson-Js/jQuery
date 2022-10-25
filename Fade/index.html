@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hou to use the fade</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./jquery-3.6.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $(".box-1").fadeIn();
+                $(".box-2").fadeIn("slow");
+                $(".box-3").fadeIn(4000);
+            });
+        });
+    </script>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>How to use the fade in your website.</h1>
+
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+        <div class="box-3"></div>
+
+        <button>Fade</button>
+    </div>
+    
+</body>
+</html>

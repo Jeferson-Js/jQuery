@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to show the text</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./jquery-3.6.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#hide").click(function(){
+                $("h1").hide();
+            });
+
+            $("#show").click(function(){
+                $("h1").show();
+            });
+        });
+
+    </script>
+</head>
+<body>
+    
+<div class="container">
+    <h1>Hello jQuery</h1>
+    <button id="show">Show the text</button>
+    <button id="hide">Hide the text</button>
+</div>
+
+
+
+</body>
+</html>
